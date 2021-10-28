@@ -1,27 +1,22 @@
 x = input("Plese enter first number \n")
 y = input("Please enter a secound number \n")
 oper = input ("Please Enter an simple arithmetic operation (+,*,-,/) \n")
-x_i = int(x)
-y_i = int(y)
+x = int(x)
+y = int(y)
 
 if (oper=="+"):
-    res = x_i + y_i
+    res = x + y
     print(res)
 elif(oper=="*"):
-    res =x_i * y_i
+    res =x * y
     print(res)
 elif(oper=="-"):
-    res = x_i - y_i
+    res = x - y
     print(res)
 elif(oper=="/"):
-    res = x_i/y_i
+    res = x/y
     print(res)
 else:
-    print("opertain is no valid")
+    print("operation is no valid")
 
-input("Pres any key to exit the program")
-
-
-
-
-
+input("Press Enter to exit the program")
