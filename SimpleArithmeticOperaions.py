@@ -15,8 +15,10 @@ elif(oper=="-"):
     print(res)
 elif(oper=="/"):
     res = x/y
-    print(res)
+    print(res) # todo: what about divizion by zero?
 else:
     print("operation is no valid")
 
 input("Press Enter to exit the program")
+
+# todo: there is a good solution without if statement (using eval function)

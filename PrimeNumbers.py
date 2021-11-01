@@ -1,6 +1,6 @@
 
 
-
+# todo: good solution. not needed to print all the numbers. condition was to check prime number from input from keyboard
 num=1
 while (num<1000):
     flag = False
