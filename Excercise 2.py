@@ -16,13 +16,19 @@ min_val=lst[0]
 min_index=0
 max_val=lst[0]
 max_index=0
-for i in range(len((lst))):
+for i in range(len((lst))): # todo: no need to get element by index. you can iterate by elements directly.
     if (lst[i]<min_val):
         min_val=lst[i]
         min_index=i
     if (lst[i]>max_val):
         max_val=lst[i]
         max_index=i
+# todo: example
+for item in lst:
+    if item < min_val:
+        min_val = item
+    if item > max_val:
+        max_val = item
 
 print ("The Minimum Number Is: " +str(min_val) +" And The Position Is:" +str(min_index+1))
 print ("The Maximum Number Is: " +str(max_val) +" And The Position Is:" +str(max_index+1))
